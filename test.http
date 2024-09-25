@@ -1,0 +1,50 @@
+# GET http://localhost:5000/api/auth/user
+# auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZjI1OTM1MjMzOWZiYTUzMTBmMTI1ZiIsImlhdCI6MTcyNzE1ODU4OSwiZXhwIjoxNzI3MTYyMTg5fQ.9gqsX9YzqsVRedSs94By9BuFBtk8w6sErThcAUy4JXg
+
+
+# POST http://localhost:5000/9GAG/auth/register
+# Content-Type: application/json
+
+# {
+#     "username":"admin",
+#     "email":"admin2@gamil.com",
+#     "password":"admin@123"
+# }
+
+# POST http://localhost:5000/9GAG/auth/login
+# Content-Type: application/json
+
+# {
+#     "email":"jaydip@gmail.com",
+#     "password":"123456"
+# }
+
+# PUT http://localhost:5000/api/auth/update/66f151df0fbf0ac52d597031
+# Content-Type: application/json
+
+# {
+#   "email": "jaydip@gmail.com"
+# }
+
+# POST http://localhost:5000/9GAG/post/createPosts
+# Content-Type: application/json
+
+# {
+#   "postHeading": "Sample Post",
+#   "postSubHeading": "This is a sample subheading",
+#   "videoUrl": "http://example.com/video.mp4",
+#   "postHoursCount": 5,
+#   "postLikesCount": 10,
+#   "postCommentCount": 3,
+#   "tags": "funny",
+#   "currentUserId": "63385bce96c37e3d08d7e391"
+# }
+
+# GET http://localhost:5000/9GAG/post/getPosts
+# Content-Type: application/json
+
+# GET http://localhost:5000/
+
+
+# https://vercel.com/jaydip04s-projects/9-gag-api/9GAG/post/getPosts
+
